@@ -1,0 +1,311 @@
+keys,ru,en
+ability.spark,Искра,Ember bolt
+ability.flare,Огненный веер,Flame fan
+ability.splash,Водяной осколок,Water shard
+ability.tide,Прилив,Tidal surge
+ability.thorn,Шип,Thorn
+ability.roots,Живые корни,Living roots
+ability.arc,Разряд,Arc
+ability.storm,Грозовая цепь,Chain storm
+ability.pulse,Импульс фонаря,Lantern pulse
+ability.slam,Гнев рощи,Grove wrath
+ability.breath,Пламенное дыхание,Flame breath
+ability.frost,Ледяной круг,Frost ring
+ability.sweep,Удар ветвей,Branch sweep
+ability.discharge,Грозовой круг,Thunder ring
+trait.enduring,Затяжные чары,Lingering magic
+trait.resonant,Резонанс,Resonance
+trait.steadfast,Несокрушимость,Steadfast
+trait.swift,Проворство,Agility
+trait.passive.ember,Питание огнём,Fire sustenance
+trait.passive.flow,Живая вода,Living water
+trait.passive.bark,Крепкая кора,Iron bark
+trait.passive.surge,Перезарядка,Recharge
+trait.passive.sun,Двойное пламя,Twin flame
+status.burn,Горение,Burn
+status.wet,Промокание,Wet
+status.poison,Яд,Poison
+status.shock,Шок,Shock
+status.slow,Замедление,Slow
+status.root,Корни,Root
+status.marked,Метка,Marked
+species.cinder,Уголёк,Cinder
+species.rill,Ручеёк,Rill
+species.briar,Вереск,Briar
+species.volt,Грозокрыл,Voltwing
+species.guardian,Страж древней рощи,Ancient Warden
+species.solstice,Солнцехвост,Solstice
+item.prism,Призма эха,Echo prism
+item.prism.desc,Дополнительные снаряды. Каждая атака поражает до трёх целей.,Дополнительные снаряды. Каждая атака поражает до трёх целей.
+item.conductor,Сердце грозы,Storm heart
+item.conductor.desc,Атаки перескакивают на соседнюю цель.,Атаки перескакивают на соседнюю цель.
+item.seed,Семя жизни,Life seed
+item.seed.desc,Попадания восстанавливают 4% здоровья владельца.,Попадания восстанавливают 4% здоровья владельца.
+item.boots,Сапоги следопыта,Trail boots
+item.boots.desc,Быстрее движение; после уклонения появляется щит.,Быстрее движение; после уклонения появляется щит.
+item.charm,Знак хранителя,Warden sign
+item.charm.desc,Увеличивает здоровье тренера.,Увеличивает здоровье тренера.
+item.ember,Угольный фокус,Ember focus
+item.ember.desc,Усиливает атаки владельца.,Усиливает атаки владельца.
+item.relic,Корень первозданных,Primordial root
+item.relic.desc,Критическое попадание вызывает грозовой разряд. Награда стража.,Критическое попадание вызывает грозовой разряд. Награда стража.
+area.haven,Тихая гавань,Stillwater Haven
+area.haven.sub,Свет фонаря всегда укажет путь домой,A lantern always guides you home
+area.grove,Янтарная роща,The Amber Grove
+area.grove.sub,"Там, где древние корни хранят память",Where ancient roots remember
+world.camp,Лагерь,Camp
+world.spring,Источник,Spring
+world.to_grove,В рощу,To the grove
+world.return,Вернуться,Return
+combat.reaction,РЕАКЦИЯ,REACTION
+ui.trait,Особенность,Trait
+ui.passive,Пассивное умение,Passive
+ui.command,Командный навык,Command skill
+ui.unlock,Уровень %d: %s,Level %d: %s
+ui.no_item,Нет предмета,No held item
+ui.skill_details,Навык и эффекты: %s,Skill and effects: %s
+tip.damage,%.1f урона до защиты и сопротивлений,%.1f damage before defense and resistance
+tip.cost,Энергия: %.0f · перезарядка: %.2f с,Energy: %.0f · cooldown: %.2f s
+tip.projectile,Снаряд · дальность %.0f · радиус взрыва %.0f,Projectile · range %.0f · blast radius %.0f
+tip.cone,Сектор перед владельцем · дальность %.0f · угол %.0f°,Cone in front of owner · range %.0f · angle %.0f°
+tip.nova,Круг вокруг владельца · радиус %.0f,Circle around owner · radius %.0f
+tip.status,%s: %.1f с · до %d ст.,%s: %.1f s · up to %d stacks
+tip.dot,%.1f урона/с за каждый заряд до защиты,%.1f damage/s per stack before defense
+tip.knockback,Отбрасывание: %.0f,Knockback: %.0f
+tip.projectiles,Дополнительных целей для снарядов: +%d,Additional projectile targets: +%d
+tip.chains,Дополнительных скачков: +%d,Additional chain jumps: +%d
+tip.interval,не чаще раза в %.1f с,at most once every %.1f s
+tip.heal,восстановить %.0f%% максимального здоровья,restore %.0f%% of maximum health
+tip.shield,получить %.0f щита,gain %.0f shield
+tip.energy,получить %.0f энергии,gain %.0f energy
+tip.ability,применить %s к цели,cast %s at target
+tip.self_status,наложить на себя %s,apply %s to self
+tip.target_status,если на цели %s,if target has %s
+tip.owner_status,если на владельце %s,if owner has %s
+tip.health_below,если здоровье ниже %.0f%%,if health is below %.0f%%
+event.hit,При попадании,On hit
+event.critical,При критическом попадании,On critical hit
+event.kill,При убийстве,On kill
+event.damage_taken,При получении урона,On taking damage
+event.swap,При смене с резерва,On swapping in from reserve
+event.dodge,При уклонении,On dodge
+event.ability_cast,При применении навыка,On ability cast
+stat.health,Здоровье,Health
+stat.attack,Атака,Attack
+stat.defense,Защита,Defense
+stat.speed,Скорость,Speed
+stat.critical_chance,Шанс критического удара,Critical chance
+stat.cooldown_reduction,Сокращение перезарядки,Cooldown reduction
+stat.energy_regeneration,Восстановление энергии/с,Energy regeneration/s
+stat.status_duration,"Длительность наложенных эффектов, с","Applied effect duration, s"
+tip.active_mods,"В сумме: до %d целей снарядами, до %d скачков","Combined: up to %d projectile targets, up to %d chain jumps"
+input.title,Управление,Controls
+loot.title,Фильтр добычи,Loot filter
+settings.back,← Настройки,← Settings
+input.help,"Выберите ячейку и нажмите клавишу, сочетание или кнопку мыши. Esc — отмена. Последнюю привязку удалить нельзя.","Choose a cell, then press a key, chord or mouse button. Esc cancels. Each action must retain a binding."
+input.capture_prompt,Назначение: %s. Нажмите клавишу или кнопку мыши; Esc — отмена.,Binding: %s. Press a key or mouse button; Esc cancels.
+input.conflict,Уже занято: %s. Выберите другую клавишу или сначала измените занятую привязку. Esc — отмена.,Already used by: %s. Choose another key or change that binding first. Esc cancels.
+input.reset,Восстановить стандартное управление,Restore default controls
+input.remove,Удалить дополнительную привязку,Remove binding
+settings.save_failed,Не удалось записать настройки. Изменения действуют до выхода.,Could not save settings. Changes remain active until exit.
+input.footer,%s движение   %s атака   %s рывок   %s рюкзак   %s команда   %s действие   %s вся добыча,%s move   %s attack   %s dodge   %s inventory   %s party   %s interact   %s all loot
+input.camp_hint,"%s у лагеря — припасы, у источника — лечение. Арка справа ведёт в рощу.",%s at camp: supplies; at the spring: healing. The arch to the right leads to the grove.
+input.party_hint,Два существа активны. Командные навыки: %s / %s. Смена — кнопками на карточке.,Two active creatures. Command skills: %s / %s. Swap using the card buttons.
+input.mouse.1,ЛКМ,LMB
+input.mouse.2,ПКМ,RMB
+input.mouse.3,СКМ,MMB
+input.mouse.8,Мышь 4,Mouse 4
+input.mouse.9,Мышь 5,Mouse 5
+loot.help,"Фильтр скрывает метки и исключает предметы из подбора. Предметы остаются в мире. Удерживайте %s, чтобы увидеть и подобрать всё.",The filter hides labels and excludes items from pickup. Items remain in the world. Hold %s to reveal and pick up everything.
+loot.minimum,Минимальная редкость,Minimum rarity
+loot.category.held,Предметы для существ,Creature held items
+loot.category.trainer,Экипировка хранительницы,Trainer equipment
+loot.unique,Всегда показывать уникальные предметы,Always show unique items
+loot.reset,Показывать всю добычу,Show all loot
+rarity.0,Обычный и выше,Common and above
+rarity.1,Магический и выше,Magic and above
+rarity.2,Редкий и выше,Rare and above
+rarity.3,Только уникальный,Unique only
+input.move_left,Движение влево,Move left
+input.move_right,Движение вправо,Move right
+input.move_up,Движение вверх,Move up
+input.move_down,Движение вниз,Move down
+input.dodge,Рывок,Dodge
+input.attack,Атака хранительницы,Trainer attack
+input.focus,Выбрать цель,Focus target
+input.ability_one,Навык первого спутника,First companion skill
+input.ability_two,Навык второго спутника,Second companion skill
+input.capture,Захват существа,Capture creature
+input.interact,Взаимодействие / подбор,Interact / pick up
+input.inventory,Рюкзак,Inventory
+input.party,Команда,Party
+input.potion,Лечение,Healing
+input.pause,Пауза (Esc доступен всегда),Pause (Esc always available)
+input.debug_menu,Инструменты разработчика,Developer tools
+input.companion_mode,Режим команды,Party mode
+input.save_game,Быстрое сохранение,Quick save
+input.load_game,Быстрая загрузка,Quick load
+input.show_all_loot,Показать всю добычу (удерживать),Reveal all loot (hold)
+input.swap_one,Существо 1 → слот 1,Creature 1 → slot 1
+input.swap_second_1,Существо 1 → слот 2,Creature 1 → slot 2
+input.swap_two,Существо 2 → слот 1,Creature 2 → slot 1
+input.swap_second_2,Существо 2 → слот 2,Creature 2 → slot 2
+input.swap_three,Существо 3 → слот 1,Creature 3 → slot 1
+input.swap_second_3,Существо 3 → слот 2,Creature 3 → slot 2
+input.swap_four,Существо 4 → слот 1,Creature 4 → slot 1
+input.swap_second_4,Существо 4 → слот 2,Creature 4 → slot 2
+compare.action,Сравнить,Compare
+compare.title,Сравнение экипировки,Equipment comparison
+compare.owner,Владелец: %s,Owner: %s
+compare.creature_owner,Предметы существ — выбранный владелец:,Creature held items — selected owner:
+compare.trainer_name,Хранительница,Ranger
+compare.trainer,Для хранительницы,For the ranger
+compare.current,Сейчас надето,Currently equipped
+compare.candidate,После замены,After replacement
+compare.empty,Слот свободен,Empty slot
+compare.context,"Изменения с учётом черт, экипировки и текущих эффектов","Changes include traits, equipment and current effects"
+compare.no_stats,Числовые характеристики не меняются. Сравните свойства предметов выше.,No stat changes. Compare the item effects above.
+compare.projectiles,Целей снарядами: %d → %d,Projectile targets: %d → %d
+compare.chains,Скачков цепи: %d → %d,Chain jumps: %d → %d
+compare.ability,Урон: %.1f → %.1f · перезарядка: %.2f → %.2f с,Damage: %.1f → %.1f · cooldown: %.2f → %.2f s
+compare.ability_note,Урон до защиты цели и критических ударов. Текущая перезарядка при замене сохраняется.,Damage before target defense and critical hits. Equipping preserves the current recharge timer.
+compare.back,← Рюкзак,← Inventory
+compare.equip,Надеть выбранный предмет,Equip selected item
+compare.remove,Снять: %s,Unequip: %s
+compare.full,В рюкзаке нет места. Предмет остаётся надетым.,Inventory is full. The item stays equipped.
+status.title,Состояние и эффекты,Condition and effects
+status.inspect,Эффекты: %d,Effects: %d
+status.paused,Бой приостановлен. Tab / Shift+Tab — переход между эффектами и владельцем. Esc — вернуться в бой.,Combat is paused. Tab / Shift+Tab — browse effects and owner. Esc — return to combat.
+status.shield,Щит,Shield
+status.target,Цель: %s,Target: %s
+status.vitals,Здоровье %.1f / %.1f · щит %.1f · энергия %.1f,Health %.1f / %.1f · shield %.1f · energy %.1f
+status.empty,Активных эффектов нет,No active effects
+hud.shield_detail,Щит: %.1f. Поглощает входящий урон раньше здоровья.,Shield: %.1f. Absorbs incoming damage before health.
+hud.effect_expired,Эффект завершился.,This effect has expired.
+hud.inspect_hint,Нажмите значок или откройте «Состояние и эффекты» в меню Esc. Tab / Shift+Tab — переход между эффектами.,Click an icon or open Condition and effects in the Esc menu. Tab / Shift+Tab — browse effects.
+status.remaining,Осталось %.1f с · зарядов %d / %d,%.1f s remaining · stacks %d / %d
+status.tick,Следующий тик через %.2f с · осталось тиков: %d,Next tick in %.2f s · ticks remaining: %d
+status.damage,"Урон за тик: %.1f, критический: %.1f. Учтены защита и типы; щит и блокирование урона не учтены.","Damage per tick: %.1f, critical: %.1f. Includes defense and types; excludes shields and damage blocking."
+status.no_damage,Этот эффект сейчас не наносит периодический урон.,This effect currently deals no periodic damage.
+status.damage_no_crit,Урон за тик: %.1f. Критический удар невозможен. Учтены защита и типы; щит и блокирование урона не учтены.,Damage per tick: %.1f. Cannot critically hit. Includes defense and types; excludes shields and damage blocking.
+status.reaction_chain,Реакция с типом «%s»: +%d скачков цепи; эффект расходуется.,Reaction with %s: +%d chain jumps; consumes this effect.
+status.reaction_bonus,Реакция с типом «%s»: урон удара ×%.2f; эффект расходуется.,Reaction with %s: hit damage ×%.2f; consumes this effect.
+element.fire,Огонь,Fire
+element.water,Вода,Water
+element.nature,Природа,Nature
+element.electric,Электричество,Electric
+element.neutral,Нейтральный,Neutral
+app.title,Emberwild — Хранители рощи,Emberwild — Guardians of the Grove
+hud.level,Ур. %s · %s%%,Lv. %s · %s%%
+hud.health,ХРАНИТЕЛЬНИЦА   %d / %d,RANGER   %d / %d
+hud.resources,◈ %d   ·   Печати %d,◈ %d   ·   Seals %d
+hud.objectives,"ПАМЯТЬ РОЩИ
+%s Поймайте дикое существо
+%s Победите элитного стража
+%s Освободите древнюю рощу","MEMORY OF THE GROVE
+%s Capture a wild creature
+%s Defeat the elite guardian
+%s Free the ancient grove"
+hud.capture,Захват,Capture
+hud.cooldown,%.1f с,%.1f s
+menu.tagline,Х Р А Н И Т Е Л И   Р О Щ И,G U A R D I A N S   O F   T H E   G R O V E
+menu.intro,"Древняя роща гаснет. Зажгите её вновь.
+Исследуйте лес, приручайте существ и создайте свою команду.","The ancient grove is fading. Rekindle its light.
+Explore the forest, tame creatures and build your party."
+menu.start,Начать путешествие,Begin journey
+menu.continue,Продолжить,Continue
+menu.settings,Настройки,Settings
+menu.paused,Путешествие приостановлено,Journey paused
+menu.pause_hint,Янтарный свет подождёт вашего возвращения,The amber light will await your return
+menu.party,Команда,Party
+menu.inventory,Рюкзак,Inventory
+menu.save,Сохранить,Save
+menu.load,Загрузить,Load
+menu.quit,Выход с сохранением,Save and quit
+menu.close,Закрыть,Close
+inventory.hint,Предметы меняют возможности команды. Выберите владельца перед экипировкой.,Items change your party’s abilities. Choose an owner before equipping.
+item.rarity.0,Обычный,Common
+item.rarity.1,Магический,Magic
+item.rarity.2,Редкий,Rare
+item.rarity.3,Уникальный,Unique
+inventory.equip,Надеть,Equip
+inventory.empty,Рюкзак пуст. Редкие находки ждут в роще.,Your inventory is empty. Rare finds await in the grove.
+party.title,Ваша команда,Your party
+party.progress,Уровень %d · %d / %d XP · %d%% HP,Level %d · %d / %d XP · %d%% HP
+party.active,В БОЮ,ACTIVE
+party.slot,В слот %d,To slot %d
+party.evolve,Эволюция,Evolve
+settings.hint,Декоративные эффекты можно уменьшить. Предупреждения атак остаются видимыми.,You can reduce decorative effects. Attack warnings remain visible.
+settings.quality.0,Эффекты: низкие,Effects: low
+settings.quality.1,Эффекты: средние,Effects: medium
+settings.quality.2,Эффекты: высокие,Effects: high
+settings.shake,Встряска камеры,Camera shake
+settings.fullscreen,Полный экран,Fullscreen
+settings.language,Язык,Language
+audio.Master,Общая громкость,Master volume
+audio.Music,Музыка,Music
+audio.SFX,Звуки,Sound effects
+audio.UI,Интерфейс,Interface
+audio.Ambience,Окружение,Ambience
+audio.Voice,Голоса,Voices
+camp.title,Лагерь хранителей,Guardians’ camp
+camp.hint,Покупайте припасы и оставляйте находки в тайнике.,Buy supplies and leave your finds in the stash.
+camp.currency,Янтарь: %d,Amber: %d
+camp.seals,3 печати · 15 янтаря,3 seals · 15 amber
+camp.potions,2 лечебных настоя · 12 янтаря,2 healing draughts · 12 amber
+camp.stash,В тайник: %s,Stash: %s
+camp.take,Забрать: %s,Take: %s
+camp.expedition,Новая экспедиция · обновить рощу,New expedition · reset the grove
+defeat.title,Фонарь ещё горит,The lantern still burns
+defeat.hint,Источник в гавани восстановит вас и вашу команду.,The spring in the haven will restore you and your party.
+defeat.return,Вернуться в гавань,Return to the haven
+debug.title,Инструменты разработчика,Developer tools
+debug.stats,seed %d · %.1f DPS · %d событий,seed %d · %.1f DPS · %d events
+debug.help,help — список команд,help — list commands
+debug.collision,Показать / скрыть коллизии и AI,Toggle collisions and AI
+debug.seed,Скопировать seed,Copy seed
+debug.stress,Нагрузка: 30 противников,Stress: 30 enemies
+notice.saved,Путешествие сохранено,Journey saved
+notice.missing_save,Сохранение не найдено или повреждено,Save not found or damaged
+notice.empty_party,В сохранении нет допустимых существ,The save contains no valid creatures
+notice.loaded,Путешествие восстановлено,Journey restored
+notice.equipped,Экипировано: %s,Equipped: %s
+notice.defeated,%s без сил. Смените существо или вернитесь к источнику.,%s is exhausted. Swap creatures or return to the spring.
+notice.victory,Роща свободна! Корень первозданных — ваша награда.,The grove is free! The Primordial Root is your reward.
+notice.level,%s · уровень %d,%s · level %d
+notice.mode,Команда: %s,Party: %s
+mode.0,Атака,Aggressive
+mode.1,Защита,Defensive
+mode.2,Следовать,Follow
+mode.3,Держать позицию,Hold position
+notice.ability_unavailable,Способность ещё не готова или цель слишком далеко,Ability not ready or target out of range
+notice.swap_unavailable,"Смена недоступна: существо активно, без сил или идёт перезарядка","Cannot swap: the creature is active, exhausted or swap is recharging"
+notice.capture_target,Подойдите к дикому существу и ослабьте его,Approach a wild creature and weaken it
+notice.capture_unavailable,"Нет печатей, команда заполнена или цель не поддаётся захвату","No seals, party full or target cannot be captured"
+notice.joined,%s присоединяется к команде!,%s joins your party!
+notice.escaped,Существо вырвалось · шанс был %d%%,The creature escaped · chance was %d%%
+notice.received,Получено: %s,Received: %s
+notice.full,Рюкзак заполнен,Inventory full
+notice.rested,Источник восстановил команду,The spring restored your party
+notice.phase,Страж пробуждается · Фаза %d,The guardian awakens · Phase %d
+notice.reserve_defeated,%s без сил в резерве,%s is exhausted in reserve
+save.invalid_structure,Недопустимая структура сохранения,Invalid save structure
+save.too_large,Сохранение превышает допустимый размер,Save exceeds the supported size limit
+save.read_failed,Не удалось прочитать сохранение (код %d),Cannot read save (code %d)
+save.invalid_journey,"В сохранении недопустимая команда, экипировка или отсутствующий контент. Текущее путешествие не изменено.","The save has an invalid party, equipment or unavailable content. Your current journey was not changed."
+save.exit_failed,Игра остаётся открытой: сохранить путешествие не удалось. Исправьте причину и повторите сохранение.,The game remains open because your journey could not be saved. Resolve the problem and try saving again.
+save.travel_busy,Дождитесь завершения перехода между областями.,Wait for the area transition to finish.
+save.recovered,Путешествие восстановлено из резервной копии. Самые последние изменения могут отсутствовать.,Journey restored from the backup. The most recent changes may be missing.
+save.write_failed,Не удалось записать сохранение (код %d),Cannot write save (code %d)
+save.backup_failed,Не удалось создать копию сохранения (код %d),Cannot back up save (code %d)
+save.commit_failed,Не удалось завершить сохранение (код %d),Cannot commit save (code %d)
+save.invalid_json,Повреждён файл сохранения: %s,Invalid save JSON: %s
+save.invalid_version,Некорректная версия сохранения,Invalid save version
+save.unsupported_version,Неподдерживаемая версия сохранения: %d,Unsupported save version: %d
+demo.scope,Демо · Тихая гавань и Янтарная роща. Выполните три задачи и освободите рощу.,Demo · Stillwater Haven and the Amber Grove. Complete three objectives and free the grove.
+demo.results,Итоги демо,Demo results
+demo.title,Роща снова дышит,The grove breathes again
+demo.subtitle,Демонстрационное путешествие завершено,Demo journey complete
+demo.story,"Вы приручили дикое существо, одолели элитного стража и освободили древнюю рощу. Свет фонаря снова согревает её корни.","You tamed a wild creature, defeated the elite guardian and freed the ancient grove. The lantern’s light warms its roots once more."
+demo.after,Можно продолжить исследование и забрать оставшуюся добычу. В лагере доступна новая экспедиция. При выходе путешествие сохранится.,You can keep exploring and collect any remaining loot. Start another expedition at camp. Your journey will be saved when you quit.
+demo.explore,Продолжить исследование,Keep exploring

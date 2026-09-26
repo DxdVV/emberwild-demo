@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StatusData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/status_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "status.burn"
+name_key = "status.burn"
+duration = 4
+tick_power = 0.22
+max_stacks = 3
+element = "fire"
+modifiers = Array[Dictionary]([])
+color = Color(1,0.43,0.13,1)
+icon_rows = Array[String](["0001000", "0011000", "0011010", "0111110", "1111111", "1110111", "0111110"])

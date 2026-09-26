@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TraitData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/trait_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "passive.bark"
+name_key = "trait.passive.bark"
+category = "species"
+modifiers = Array[Dictionary]([])
+ability_mods = {}
+triggers = Array[Dictionary]([{"event": "damage_taken", "effect": "shield", "amount": 18, "cooldown": 6, "conditions": {"health_below": 0.5}}])

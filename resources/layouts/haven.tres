@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="AreaLayout" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/area_layout.gd" id="1"]
+[resource]
+script = ExtResource("1")
+entry = Vector2(350, 500)
+paths = Array[Dictionary]([
+{"points":[[350,500],[480,520],[720,520],[910,620],[1060,650]],"width":110},
+{"points":[[480,520],[410,400]],"width":90},
+{"points":[[720,520],[720,440]],"width":95}
+])
+clearings = Array[Dictionary]([
+{"at":[540,500],"radii":[270,170],"surface":"dirt"},
+{"at":[720,445],"radii":[115,95],"surface":"stone"},
+{"at":[1050,650],"radii":[110,90],"surface":"stone"}
+])
+props = Array[Dictionary]([
+{"cell":2,"at":[410,355],"height":210,"solid":true},
+{"cell":4,"at":[720,390],"height":190,"solid":true},
+{"cell":1,"at":[1060,610],"height":210,"solid":false},
+{"cell":0,"at":[85,260],"height":265,"solid":true},
+{"cell":0,"at":[215,230],"height":240,"solid":true},
+{"cell":0,"at":[340,195],"height":230,"solid":true},
+{"cell":0,"at":[540,180],"height":265,"solid":true},
+{"cell":0,"at":[840,225],"height":255,"solid":true},
+{"cell":0,"at":[1010,195],"height":260,"solid":true},
+{"cell":0,"at":[1150,350],"height":250,"solid":true},
+{"cell":0,"at":[80,530],"height":255,"solid":true},
+{"cell":0,"at":[220,390],"height":195,"solid":true},
+{"cell":0,"at":[100,770],"height":260,"solid":true},
+{"cell":0,"at":[320,790],"height":210,"solid":true},
+{"cell":0,"at":[500,775],"height":195,"solid":true},
+{"cell":0,"at":[770,785],"height":200,"solid":true},
+{"cell":0,"at":[1090,815],"height":180,"solid":true},
+{"cell":3,"at":[245,640],"height":135,"solid":true},
+{"cell":3,"at":[560,310],"height":105,"solid":true},
+{"cell":3,"at":[890,395],"height":140,"solid":true},
+{"cell":3,"at":[970,800],"height":100,"solid":true},
+{"cell":5,"at":[275,505],"height":65,"solid":false},
+{"cell":5,"at":[530,650],"height":65,"solid":false},
+{"cell":5,"at":[805,340],"height":65,"solid":false},
+{"cell":5,"at":[890,720],"height":65,"solid":false},
+{"cell":5,"at":[1080,450],"height":65,"solid":false}
+])
+lights = Array[Dictionary]([
+{"at":[400,320],"color":"ffbd68","energy":1.1,"radius":280},
+{"at":[720,330],"color":"70dce6","energy":0.7,"radius":240}
+])
+encounters = Array[Dictionary]([
+
+])
+interactions = Array[Dictionary]([
+{"id":"camp","at":[410,400],"label":"world.camp","action":"camp","radius":140},
+{"id":"spring","at":[720,440],"label":"world.spring","action":"rest","radius":140},
+{"id":"grove","at":[1060,650],"label":"world.to_grove","action":"exit","target":"area.grove","radius":130}
+])

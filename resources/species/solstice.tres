@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SpeciesData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/species_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/portraits/solstice.tres" id="portrait"]
+[resource]
+script = ExtResource("1")
+id = "species.solstice"
+name_key = "species.solstice"
+element = "fire"
+base_stats = {"health": 175.0, "attack": 29.0, "defense": 9.0, "speed": 145.0}
+abilities = Array[String](["ability.spark", "ability.flare"])
+sprite_cell = 1
+visual_height = 104.0
+color = Color(1,0.43,0.13,1)
+ai_profile = "ranged"
+tags = Array[String](["fire", "ranged"])
+animation_id = "animation.solstice"
+portrait = ExtResource("portrait")
+passives = Array[String](["passive.ember", "passive.sun"])
+ability_unlocks = Array[Dictionary]([{"level": 3, "ability": "ability.breath"}])

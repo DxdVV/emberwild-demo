@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/water.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.tide"
+name_key = "ability.tide"
+element = "water"
+power = 2.0
+cooldown = 8
+windup = 0.25
+recovery = 0.28
+reach = 260
+radius = 100
+projectile_speed = 320
+cost = 25
+effects = Array[Dictionary]([{"kind": "status", "id": "status.slow"}])
+color = Color(0.25,0.82,1,1)
+tags = Array[String](["projectile"])
+audio_profile = ExtResource("audio_profile")

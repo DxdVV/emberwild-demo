@@ -1,0 +1,10 @@
+.godot/
+.codex/config.toml
+docs/references/
+tools/godot/
+tools/*.zip
+tools/media_runtime/
+build/*
+!build/.gitkeep
+*.tmp
+__pycache__/

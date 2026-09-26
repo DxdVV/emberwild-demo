@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "item.boots"
+name_key = "item.boots"
+description_key = "item.boots.desc"
+category = "trainer"
+slot = "boots"
+rarity = 1
+modifiers = Array[Dictionary]([{"stat": "speed", "op": "add", "value": 0.18}])
+ability_mods = {}
+triggers = Array[Dictionary]([{"event": "dodge", "effect": "shield", "amount": 18, "cooldown": 3}])

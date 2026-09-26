@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpeciesData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/species_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "species.volt"
+name_key = "species.volt"
+element = "electric"
+base_stats = {"health": 100.0, "attack": 24.0, "defense": 4.0, "speed": 150.0}
+abilities = Array[String](["ability.arc", "ability.storm"])
+sprite_cell = 4
+visual_height = 94.0
+color = Color(0.72,0.5,1,1)
+ai_profile = "ranged"
+tags = Array[String](["electric", "ranged"])
+animation_id = "animation.volt"
+passives = Array[String](["passive.surge"])
+ability_unlocks = Array[Dictionary]([{"level": 3, "ability": "ability.discharge"}])

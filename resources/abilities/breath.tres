@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/fire.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.breath"
+name_key = "ability.breath"
+element = "fire"
+delivery = "cone"
+cone_angle = 75.0
+power = 3.2
+cooldown = 9.0
+windup = 0.38
+recovery = 0.3
+reach = 165.0
+radius = 0.0
+cost = 30.0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.burn"}])
+color = Color(1,0.43,0.13,1)
+tags = Array[String](["cone"])
+audio_profile = ExtResource("audio_profile")

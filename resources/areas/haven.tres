@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AreaData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/area_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/layouts/haven.tres" id="layout"]
+[resource]
+script = ExtResource("1")
+id = "area.haven"
+name_key = "area.haven"
+subtitle_key = "area.haven.sub"
+size = Vector2(1200,850)
+safe = true
+ground = Color(0.13,0.22,0.19,1)
+tint = Color(0.87,0.96,0.91,1)
+layout = ExtResource("layout")
+exits = Array[String](["area.grove"])

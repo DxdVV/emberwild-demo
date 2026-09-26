@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpeciesData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/species_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "species.rill"
+name_key = "species.rill"
+element = "water"
+base_stats = {"health": 150.0, "attack": 16.0, "defense": 8.0, "speed": 115.0}
+abilities = Array[String](["ability.splash", "ability.tide"])
+sprite_cell = 2
+visual_height = 78.0
+color = Color(0.25,0.82,1,1)
+ai_profile = "support"
+tags = Array[String](["water", "support"])
+animation_id = "animation.rill"
+passives = Array[String](["passive.flow"])
+ability_unlocks = Array[Dictionary]([{"level": 3, "ability": "ability.frost"}])

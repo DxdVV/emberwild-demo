@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/electric.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.arc"
+name_key = "ability.arc"
+element = "electric"
+power = 1.15
+cooldown = 1.25
+windup = 0.25
+recovery = 0.28
+reach = 275
+radius = 0
+projectile_speed = 320
+cost = 0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.shock"}])
+color = Color(0.72,0.5,1,1)
+tags = Array[String](["projectile"])
+audio_profile = ExtResource("audio_profile")

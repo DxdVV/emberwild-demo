@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/heavy.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.slam"
+name_key = "ability.slam"
+element = "nature"
+power = 2.5
+cooldown = 3.8
+windup = 1.1
+recovery = 0.28
+reach = 310
+radius = 115
+projectile_speed = 320
+cost = 0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.slow"}])
+color = Color(0.55,0.85,0.32,1)
+tags = Array[String](["heavy"])
+audio_profile = ExtResource("audio_profile")

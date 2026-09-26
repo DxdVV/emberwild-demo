@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "item.charm"
+name_key = "item.charm"
+description_key = "item.charm.desc"
+category = "trainer"
+slot = "charm"
+rarity = 1
+modifiers = Array[Dictionary]([{"stat": "health", "op": "flat", "value": 45}])
+ability_mods = {}
+triggers = Array[Dictionary]([])

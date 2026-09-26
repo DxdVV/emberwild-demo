@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TraitData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/trait_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "passive.ember"
+name_key = "trait.passive.ember"
+category = "species"
+modifiers = Array[Dictionary]([])
+ability_mods = {}
+triggers = Array[Dictionary]([{"event": "hit", "effect": "energy", "amount": 6, "cooldown": 1.5, "conditions": {"target_status": "status.burn"}}])

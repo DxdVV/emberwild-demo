@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StatusData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/status_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "status.wet"
+name_key = "status.wet"
+duration = 5
+tick_power = 0
+max_stacks = 1
+element = "water"
+modifiers = Array[Dictionary]([])
+color = Color(0.25,0.82,1,1)
+icon_rows = Array[String](["0001000", "0011100", "0011100", "0111110", "1111011", "1111111", "0111110"])

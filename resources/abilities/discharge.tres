@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/electric.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.discharge"
+name_key = "ability.discharge"
+element = "electric"
+delivery = "nova"
+cone_angle = 360.0
+power = 1.8
+cooldown = 9.0
+windup = 0.38
+recovery = 0.3
+reach = 180.0
+radius = 180.0
+cost = 30.0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.shock"}])
+color = Color(0.72,0.5,1,1)
+tags = Array[String](["nova"])
+audio_profile = ExtResource("audio_profile")

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/fire.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.spark"
+name_key = "ability.spark"
+element = "fire"
+power = 1.1
+cooldown = 1.15
+windup = 0.25
+recovery = 0.28
+reach = 250
+radius = 0
+projectile_speed = 320
+cost = 0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.burn"}])
+color = Color(1,0.43,0.13,1)
+tags = Array[String](["projectile"])
+audio_profile = ExtResource("audio_profile")

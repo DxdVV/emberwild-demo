@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SpeciesData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/species_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "species.cinder"
+name_key = "species.cinder"
+element = "fire"
+base_stats = {"health": 120.0, "attack": 19.0, "defense": 5.0, "speed": 135.0}
+abilities = Array[String](["ability.spark", "ability.flare"])
+sprite_cell = 1
+visual_height = 83.0
+color = Color(1,0.43,0.13,1)
+ai_profile = "ranged"
+tags = Array[String](["fire", "ranged"])
+evolution_target = "species.solstice"
+evolution_level = 5
+animation_id = "animation.cinder"
+passives = Array[String](["passive.ember"])
+ability_unlocks = Array[Dictionary]([{"level": 3, "ability": "ability.breath"}])

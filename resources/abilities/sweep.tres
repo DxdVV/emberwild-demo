@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/wood.tres" id="audio_profile"]
+[resource]
+script = ExtResource("1")
+id = "ability.sweep"
+name_key = "ability.sweep"
+element = "nature"
+delivery = "cone"
+cone_angle = 120.0
+power = 2.3
+cooldown = 9.0
+windup = 0.38
+recovery = 0.3
+reach = 155.0
+radius = 0.0
+cost = 30.0
+effects = Array[Dictionary]([{"kind": "status", "id": "status.root"}, {"kind": "knockback", "force": 220}])
+color = Color(0.55,0.85,0.32,1)
+tags = Array[String](["cone"])
+audio_profile = ExtResource("audio_profile")

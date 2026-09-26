@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TraitData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/trait_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "enduring"
+name_key = "trait.enduring"
+category = "individual"
+modifiers = Array[Dictionary]([{"stat": "status_duration", "op": "flat", "value": 1.0}])
+ability_mods = {}
+triggers = Array[Dictionary]([])

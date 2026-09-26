@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StatusData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/status_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "status.shock"
+name_key = "status.shock"
+duration = 3
+tick_power = 0
+max_stacks = 1
+element = "electric"
+modifiers = Array[Dictionary]([{"stat": "defense", "op": "add", "value": -0.25}])
+color = Color(0.72,0.5,1,1)
+icon_rows = Array[String](["0000110", "0001100", "0011000", "0111110", "0001100", "0011000", "0110000"])

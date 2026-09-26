@@ -1,0 +1,21 @@
+extends RefCounted
+
+func run(check: Callable) -> void:
+	var metrics := FrameMetrics.new()
+	metrics.begin(1000000,40,60)
+	metrics.sample(1016000,41,61,true,.7,.4)
+	metrics.sample(1033000,42,62,true,.8,.5)
+	metrics.sample(1100000,43,66,true,1.1,.6)
+	var result := metrics.report()
+	check.call(is_equal_approx(result.wall_seconds,.1) and result.drawn_frames==3 and result.physics_frames==6 and is_equal_approx(result.delivered_fps,30),"frame capture measures wall time, rendered frames and physics independently")
+	check.call(result.frame_ms.p95==67 and result.frames_over_25ms==1 and result.frames_over_50ms==1,"frame capture retains a long stall in percentile and exceedance counts")
+	check.call(result.timeline[2].physics_delta==4 and result.timeline[2].drawn_delta==1,"timeline exposes physics catch-up without inventing rendered frames")
+	check.call(result.pacing_sample_valid and result.render_timing_available,"focused rendered samples are valid and report actual GPU timing availability")
+	metrics.sample(1116000,43,67,false,0,0)
+	result = metrics.report()
+	check.call(not result.pacing_sample_valid and result.unfocused_samples==1 and result.samples_without_draw==1,"unfocused or non-rendering intervals invalidate a pacing claim")
+	metrics.begin(0,0,0)
+	check.call(result.timeline.size()==4 and result.timeline[0].time_ms==16,"completed timing reports retain their own timeline when the next case begins")
+	metrics.sample(1000,0,1,false,0,0)
+	result = metrics.report()
+	check.call(result.delivered_fps==0 and not result.render_timing_available and not result.pacing_sample_valid and result.frame_ms.samples==1,"headless/reset measurements cannot be mistaken for rendered FPS")

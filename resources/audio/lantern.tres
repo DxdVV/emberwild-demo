@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AbilityAudioData" load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/data/ability_audio_data.gd" id="1"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-cast-1.wav" id="cast0"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-cast-2.wav" id="cast1"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-cast-3.wav" id="cast2"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-impact-1.wav" id="impact0"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-impact-2.wav" id="impact1"]
+[ext_resource type="AudioStream" path="res://assets/audio/lantern-impact-3.wav" id="impact2"]
+[resource]
+script = ExtResource("1")
+id = "lantern"
+cast_gain_db = -4.0
+impact_gain_db = -4.0
+cast_samples = Array[AudioStream]([ExtResource("cast0"), ExtResource("cast1"), ExtResource("cast2")])
+impact_samples = Array[AudioStream]([ExtResource("impact0"), ExtResource("impact1"), ExtResource("impact2")])

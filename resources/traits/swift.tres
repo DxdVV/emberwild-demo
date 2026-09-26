@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TraitData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/trait_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "swift"
+name_key = "trait.swift"
+category = "individual"
+modifiers = Array[Dictionary]([{"stat": "speed", "op": "add", "value": 0.1}, {"stat": "cooldown_reduction", "op": "flat", "value": 0.08}])
+ability_mods = {}
+triggers = Array[Dictionary]([])

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpeciesData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/species_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "species.briar"
+name_key = "species.briar"
+element = "nature"
+base_stats = {"health": 210.0, "attack": 19.0, "defense": 16.0, "speed": 95.0}
+abilities = Array[String](["ability.thorn", "ability.roots"])
+sprite_cell = 3
+visual_height = 115.0
+color = Color(0.55,0.85,0.32,1)
+ai_profile = "tank"
+tags = Array[String](["nature", "tank"])
+animation_id = "animation.briar"
+passives = Array[String](["passive.bark"])
+ability_unlocks = Array[Dictionary]([{"level": 3, "ability": "ability.sweep"}])
